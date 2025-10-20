@@ -9,6 +9,11 @@ A Model Context Protocol (MCP) server for interacting with Prow CI/CD systems, r
 - 🚀 **Smart Discovery**: Multi-strategy PR build finding with fallback mechanisms
 - 🔧 **Diagnostics**: Comprehensive PR build status diagnosis and test failure extraction
 
+## Architecture Diagram
+
+<img width="1279" height="782" alt="image" src="https://github.com/user-attachments/assets/8980f0fe-c43f-4b5a-a332-040c26a554a6" />
+
+
 ## Available Tools
 
 The server exposes 7 MCP tools:
@@ -20,6 +25,10 @@ The server exposes 7 MCP tools:
 5. **`get_prow_logs_from_pr`** - Get comprehensive logs for a specific PR
 6. **`diagnose_pr_build_status`** - Comprehensive diagnostic tool for PR build issues
 7. **`get_test_failures_from_artifacts`** - Extract test failures from build artifacts
+
+## Example Output
+
+Check out the [examples](https://github.com/redhat-community-ai-tools/prow-mcp-server/tree/main/examples) directory.
 
 ## Quick Start
 
