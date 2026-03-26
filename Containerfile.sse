@@ -1,5 +1,6 @@
 # Single-stage build using Python 3.12 - SSE Transport Configuration
-FROM registry.access.redhat.com/ubi9/python-312
+# Force linux/amd64 platform for OpenShift compatibility
+FROM --platform=linux/amd64 registry.access.redhat.com/ubi9/python-312
 
 # Switch to root user temporarily for installations
 USER 0
